@@ -10,6 +10,9 @@ import static br.renato.converter.utils.ConstantUtil.CELSIUS_TO_FAHRENHEIT_FACTO
 import static br.renato.converter.utils.ConstantUtil.FAHRENHEIT_TO_CELSIUS_FACTOR;
 import static br.renato.converter.utils.ConstantUtil.FAHRENHEIT_TO_CELSIUS_OFFSET;
 
+/**
+ * Service class that handles temperature conversion.
+ */
 @Service
 @RequiredArgsConstructor
 public class ConverterService {
