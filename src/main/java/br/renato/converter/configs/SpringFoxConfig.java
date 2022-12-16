@@ -26,7 +26,7 @@ public class SpringFoxConfig {
         return new ApiInfoBuilder()
                 .title("Temperature Converter API")
                 .description("This API converts temperature to another unit of measurement.")
-                .version("1.0.0")
+                .version("1.0.1")
                 .license("Apache License Version 2.0")
                 .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0")
                 .build();

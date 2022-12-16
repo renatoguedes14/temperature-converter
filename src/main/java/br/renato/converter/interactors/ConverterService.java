@@ -6,7 +6,9 @@ import org.springframework.stereotype.Service;
 
 import java.text.DecimalFormat;
 
-import static br.renato.converter.utils.ConstantUtil.*;
+import static br.renato.converter.utils.ConstantUtil.CELSIUS_TO_FAHRENHEIT_FACTOR;
+import static br.renato.converter.utils.ConstantUtil.FAHRENHEIT_TO_CELSIUS_FACTOR;
+import static br.renato.converter.utils.ConstantUtil.FAHRENHEIT_TO_CELSIUS_OFFSET;
 
 @Service
 @RequiredArgsConstructor
